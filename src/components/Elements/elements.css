@@ -1,0 +1,140 @@
+.ingredients {
+    margin: 1%;
+    display: inline-block;
+    border: 1px solid #d1cecee8;
+    padding: 37px 20px;
+   align-items: center;
+    margin-left: 25px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.add-ingredients{
+   
+    height: 45px;
+    margin-top: -20px;    /* melhorar esse pixel */
+    background-color: rgba(253, 215, 14, 0.2);;
+    max-width: 1280px;
+    display: inline-block;
+    padding: 10px;
+    color: #4E4E4E;
+    font-size: 14px;
+}
+
+.amount{
+    margin-top: 8px;
+    font-size: 12px;
+    color: #E49700;
+}
+
+.counter {
+    padding-top: 10px;
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    font-size: 14px;
+    align-items: center;   
+}
+
+.pr {
+    border-bottom: 1px solid #E49700;
+    margin-top: 8px;
+    padding-bottom: 16px;
+    font-size: 12px;
+    color: #E49700;  
+}
+
+.buttons {
+    display: flex;
+    background-color: #ffffff;
+    width: 89px;
+    height: 32px;
+    border: 1px solid #E49700;
+    align-content: space-around;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+.left-button,
+.right-button {
+    background-color: #ffffff;
+    border: #fff;
+    color: #D80000;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.buttons-sum {
+    border: 1px solid #fff;
+    font-size: 18px;
+}
+.need {
+  padding: 8px 14px 24px;
+   background-color: rgba(253, 215, 14, 0.2);;
+}
+
+.cutlery {
+    font-size: 14px;
+}
+
+.options {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-below {
+    margin-top: 20px;
+    display: flex;
+    background-color: #ffffff;
+    width: 140px;
+    height: 40px;
+    border: 1px solid #E49700;
+    align-content: space-around;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button-left,
+.button-right {
+    background-color: #ffffff;
+    border: #fff;
+    color: #D80000;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 27px;
+    
+}
+
+.add {
+    margin-top: 20px;
+    width: 195px;
+    height: 40px;
+    background-color: #E49700;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16px;
+  
+}
+
+@media screen and (max-width: 600px) {
+    .ingredeients{
+       display: flex;
+        
+    }
+   
+
+}

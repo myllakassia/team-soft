@@ -1,0 +1,65 @@
+.desktop {
+margin-top: 16px;
+background-color: #fff;
+margin-left: 25px;
+margin-right: 25px;
+/* width: 597px;
+height: 388px; */
+
+display: inline-block;
+align-items: center;
+height: auto;
+padding: 10px 20px;
+color: #4E4E4E;
+flex: none;
+flex-grow: 0;
+}
+
+.login-form-title{
+    margin-top: 5%;
+}
+
+
+.offer{
+    /* width: 597px;
+    height: 388px; */
+    margin-top: 24px;
+    font-size: 28px;
+}
+
+.description{
+    max-width: 1280px;
+    display: block;
+    margin-top: 16px;
+    /* font-size: 16px; */
+    font-size: 20px;
+}
+
+.prices{
+    /* margin-top: -80px; melhorar esse pixel */
+    display: flex;
+    
+}
+
+.price{
+    margin-top: 1%;
+    color: #E49700;
+    font-size: 32px;
+    
+    margin-right: 15px;
+   
+}
+
+.price1{
+    margin-top: 1%;
+    font-size: 32px;
+    text-decoration: line-through;
+}
+
+@media screen and(max-width: 600px) {
+    .desktop {
+        display: none;
+     
+    };
+    
+}
